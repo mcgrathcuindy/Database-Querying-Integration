@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head><h1>Uindy Catalog Delete</h1></head>
+<body>
+<form action="results_delete.php" method="post">
+<label><strong>Choose Delete Type:</strong><br></label>
+
+<select name="deleteType">
+  <option value="ISBN">ISBN</option>
+  <option value="Author">Author</option>
+  <option value="Title">Title</option>
+  <option value="Price">Price</option>
+</select>
+<br><br>
+<strong>Enter Search Term:</strong><br>
+<input type ="text" name = "searchTerm" size = "50"
+/>
+<br><br>
+<input type = "submit" value = "Delete Book" />
+</body>
+</html>
